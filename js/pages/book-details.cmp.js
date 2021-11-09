@@ -54,7 +54,9 @@ export default {
             bookService.getBookById(bookId)
                 .then(book => {
                     this.book = book
+                    // console.log('book',this.book)
                 })
+                
         },
         addReview(review){
             bookService.addReview(this.book.id,review)
