@@ -1,0 +1,172 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.app-main{
+    height: 90vh;
+    background-color: #daecf2;
+}
+
+.book-header {
+    background-color: lightskyblue;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: #3a3a3a;
+}
+
+nav{
+    padding-right: 20px;
+}
+
+.book-list a{
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+    font-family: sans-serif;
+}
+
+.book-filter{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.book-list li {
+    padding: 10px;
+    border: 1px solid;
+    margin: 5px;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.book-preview{
+    width: 237px;
+    margin-bottom: 20px;
+
+}
+
+.add-review{
+    padding-top: 27px;
+}
+
+.review-details{
+    position: absolute;
+    top: 121px;
+    padding-left: 25px;
+}
+
+
+
+.review-details li{
+    margin-bottom: 20px;
+}
+
+.review-details h2{
+    text-decoration: underline;
+}
+
+.book-desc-img{
+    width: 150px;
+}
+
+.book-desc-img-prev{
+    width: 90px;
+    object-fit: contain;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    width: 20%;
+    margin: auto;
+}
+
+
+form input{
+    margin-bottom: 20px;
+}
+
+form button{
+    margin: auto;
+    margin-top: 14px;
+    padding: 5px 20px 5px 20px;
+    background: #70adad;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+main .book-inner-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 371px;
+        margin: 0 auto;
+        background-color: lightblue;
+        border-radius: 27px;
+        padding: 15px;
+}
+
+footer{
+    height: 4vh;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.router-link-exact-active {color: green}
+
+.user-msg{
+    position: absolute;
+    right: 0;
+    top: 90px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 33px 0px 0px 33px;
+    
+}
+
+.success{
+    background-color: lightgreen;
+}
+
+.error{
+    background-color: rgb(250, 36, 36);
+}
+
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
